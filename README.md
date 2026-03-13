@@ -25,14 +25,21 @@ This repository contains high-fidelity **GitHub Copilot Agent Skills**. These co
 
 ## 📥 Installation
 
-To activate these skills in your project, you must place them in the specific directory where Copilot looks for "Agent Context."
+To activate these skills in your project, place them in the directory where Copilot looks for "Agent Context."
 
 ### Option 1: Manual (Easiest)
-1. Navigate to the folder of the skill you need (e.g., `nodejs-architect`).
-2. Copy the entire folder.
-3. Paste it into your project at: `.github/skills/`
+1. Clone this repository or download the folder for the skill you need (e.g., `nodejs-architect`).
+2. Paste the folder into your project at: `.github/skills/`
 
 ### Option 2: The DevOps One-Liner (Fastest)
-Run this command from your project root to instantly sync the Node.js skill:
+Run the relevant command from your **project root** to instantly sync the skill.
+
+#### 🟢 Node.js / NestJS Architect
 ```bash
-mkdir -p .github/skills/nodejs-architect && curl -sL [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)[YourUsername]/[YourRepo]/main/nodejs-architect/SKILL.md -o .github/skills/nodejs-architect/SKILL.md
+mkdir -p .github/skills/nodejs-architect && curl -sL [https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/nodejs-architect/SKILL.md](https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/nodejs-architect/SKILL.md) -o .github/skills/nodejs-architect/SKILL.md
+```
+
+#### 🟢 Symfony / PHP Architect Architect
+```bash
+mkdir -p .github/skills/symfony-architect && curl -sL [https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/symfony-architect/SKILL.md](https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/symfony-architect/SKILL.md) -o .github/skills/symfony-architect/SKILL.md
+```
