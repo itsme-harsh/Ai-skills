@@ -36,10 +36,10 @@ Run the relevant command from your **project root** to instantly sync the skill.
 
 #### 🟢 Node.js / NestJS Architect
 ```bash
-mkdir -p .github/skills/nodejs-architect && curl -sL [https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/nodejs-architect/SKILL.md](https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/nodejs-architect/SKILL.md) -o .github/skills/nodejs-architect/SKILL.md
+mkdir -p .github/skills/nodejs-architect && curl -sL https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/nodejs-architect/SKILL.md -o .github/skills/nodejs-architect/SKILL.md
 ```
 
 #### 🟢 Symfony / PHP Architect Architect
 ```bash
-mkdir -p .github/skills/symfony-architect && curl -sL [https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/symfony-architect/SKILL.md](https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/symfony-architect/SKILL.md) -o .github/skills/symfony-architect/SKILL.md
+mkdir -p .github/skills/symfony-architect && curl -sL https://raw.githubusercontent.com/itsme-harsh/Ai-skills/main/symfony-architect/SKILL.md -o .github/skills/symfony-architect/SKILL.md
 ```
